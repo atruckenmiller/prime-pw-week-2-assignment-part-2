@@ -152,7 +152,7 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
-// FIX Need to add === to check the temperature value before the if statement. Add in && to state both statements are true. are true/
+// FIX Need to add === to check the temperature value before the if statement. Add in && to state both statements are true, and use equal sign./
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
