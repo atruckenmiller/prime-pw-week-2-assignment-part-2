@@ -48,7 +48,7 @@ if (name === 'Mary') {
 // We make a variable called secret, and we name a code called 123 as the variable.
 // We see that the code equals 123, and later we multiply the code by 2.
 // The solution to the code * 2 is 246, which is less than 250, As stated in the problem.
-// If the code solution is false, then we don't console log it.
+// If the code solution is false, we console log secret.
 
 //CODE
 /*
@@ -73,7 +73,7 @@ console.log(secret)
 // We make a variable called  isStudent, and set it to true, and we make a vairable called letage and set it to 34.
 // Then we check to see if student is true and the zip is true
 // The zip isnt greater than 80000, and age isn't less than 30, so we console log('Welcome to Prime!')
-// The statement that is coded in is else if isStudent === true and we type in console.log('Welcome to Prime!')
+// The student is true, so we console log ('Welcome to Prime!').
 
 //CODE
 /*
@@ -129,7 +129,7 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
-// FIX: colorOne should be set to 'blue, and colorTwo should be set to red.'
+// FIX: colorOne should be set to 'blue, and colorTwo should be set to red. Color one and two both shouldn't both be set to purple.'
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -152,7 +152,7 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
-// FIX Need to add === to check the temperature value before the if statement. Add in && to state both statements are true, and use equal sign./
+// FIX Need to add in && to state both statements are true, and use equal sign./
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
@@ -168,5 +168,5 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
-// FIX doesnt need an else statement since it is a true statement, and age is equal to minAge.
+// FIX: Console logs shpuld be switches from min age <= 21 it should be enter, and the console log for else should be no entry.
 */
