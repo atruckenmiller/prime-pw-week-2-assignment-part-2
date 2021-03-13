@@ -27,9 +27,9 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // We make a variable called name and set it to Dane as the name.
-// Then we noticed the variable for name is set to Mary, and value is undefined.
-// We notice that the name is not Dane listed, under name, so we look at the else statement, and type that out in console.
-// We console.log 'How do you do?'
+// String variable is set to mary under name ===, then we console log('Hi Mary')
+// Dane isn't listed in name, so we go to the else statement console.log('How do you do?')
+// We console.log 'How do you do?', for string of Mary.
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// We make a variable called secret, and we name a code called 123 as the variable.
-// We see that the code equals 123, and later we multiply the code by 2.
-// The solution to the code * 2 is 246, which is less than 250, As stated in the problem.
-// If the code solution is false, we console log secret.
+// We set a variable called code to 123. Secret is set to a string value of super.
+// Next step is multiply the code by 2, and the answer is 246. which is less than 250.
+// If the code is greater than 250, then secret string is set to duper.
+// If the code solution is false, then we console.log secret, and the answer is duper.
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// We make a variable called  isStudent, and set it to true, and we make a vairable called letage and set it to 34.
-// Then we check to see if student is true and the zip is true
-// The zip isnt greater than 80000, and age isn't less than 30, so we console log('Welcome to Prime!')
-// The student is true, so we console log ('Welcome to Prime!').
+// We create a variable called  isStudent, and set it to true, and we set a variable age to 34.
+// We set the zip variable to 55407
+// We check to see if the zip code is larger than the number 80000, which the zip is not larger than 80000.
+// Since the zip code isn't greater than 80000, and age isnt less than less than 30, so we console 'Welcome to Prime!'
 
 //CODE
 /*
@@ -129,7 +129,7 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
-// FIX: colorOne should be set to 'blue, and colorTwo should be set to red. Color one and two both shouldn't both be set to purple.'
+// FIX: colorOne should be set to 'blue, and colorTwo should be set to red. However, if mix is true, then both color 1 and color 2 need to be set to equal purple.'
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -152,7 +152,7 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
-// FIX Need to add in && to state both statements are true, and use equal sign./
+// FIX Since both the temperature and time statements are true, we need to replace the || or signs with two && 'and' signs.
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
@@ -168,5 +168,5 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
-// FIX: Console logs shpuld be switches from min age <= 21 it should be enter, and the console log for else should be no entry.
+// FIX: Console logs should be switches from min age <= 21 it should be enter, and the console log for else should be no entry.
 */
